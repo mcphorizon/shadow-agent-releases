@@ -85,11 +85,11 @@ To verify the policy was applied:
 2. Enable **Developer mode** (toggle in the bottom-left corner)
 3. In a new tab, go to:
    ```
-   https://<manager-url>/extension/shadow-agent.crx
+   [https://shadow.68.220.202.177.nip.io/extension/shadow-agent.zip[
    ```
    The file will download automatically.
-4. Open your **Downloads** folder, then drag the `.crx` file onto the `edge://extensions` page
-5. Click **"Add extension"** in the confirmation prompt
+4. Click Load Unpacked
+5. Select the 'chrome-extension' folder from the unzipped directory
 
 > Edge will show a persistent *"Extensions installed in developer mode"* banner. Click **Keep** to dismiss it. This banner reappears on each browser start on unmanaged machines.
 
@@ -99,11 +99,11 @@ To verify the policy was applied:
 2. Enable **Developer mode** (toggle in the top-right corner)
 3. In a new tab, go to:
    ```
-   https://<manager-url>/extension/shadow-agent.crx
+   [https://shadow.68.220.202.177.nip.io/extension/shadow-agent.zip[
    ```
    The file will download automatically.
-4. Open your **Downloads** folder, then drag the `.crx` file onto the `chrome://extensions` page
-5. Click **"Add extension"** in the confirmation prompt
+4. Click Load Unpacked
+5. Select the 'chrome-extension' folder from the unzipped directory
 
 > Same developer mode banner applies. Click **Keep** to dismiss.
 
